@@ -1,0 +1,45 @@
+
+# 1st defining speak function so our jarvis first can speak with a paramter named Audio
+ then importing module pyttsx3      (in terminal run command :-  pip install pyttsx3)
+
+ What is SAPI5?
+ Microsoft Speech API (SAPI5) is the technology for voice recognition and synthesis provided by Microsoft
+
+voices[0].id
+ n this we only have one voice thats why it will show index out of range for voices[1].id
+
+
+--------   RECOGNIZING VOICE ---------
+
+ importing speech_Recognition :-
+    It will take input from microphone and returns the string output
+
+
+
+with statement is used to open the file.
+   the difference between the with and open statement is 
+   when using with we don't need to close the file
+   while in open_file we need to clode the file
+
+   file_obj = open("example.txt")
+
+   for line in file_obj:
+         prin(line)
+
+    file_obj.close()
+
+    -------------------------
+    with open(" example.txt") as file_obj:
+    for line in file_obj:
+        print(line)
+
+r.pause_thereshold -> agar kahi paar pause hoo jaye toh voh audio compelete na karde
+ seconds of non-speaking audio before a phrase is considered complete
+
+
+
+-------TASKS from user-------
+
+for Wikipedia 
+                 1) pip install Wikipedia
+                 
