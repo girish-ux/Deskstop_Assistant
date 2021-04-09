@@ -1,1 +1,12 @@
+got a big error in importing ppytsx3  (the files weren't copied in win32 by default so we need to manually copy the files)
+  pythoncom38dl - file 
 
+
+
+Could not find PyAudio; check installation:(this means that speech_recognition Module somewhere is using PyAudio which is not properly installed)
+(we cannot simply install with the pip install PyAudio) it throws error that some different version of Microsoft visual C++ 14 is required
+so to solve this error we need to unofically download the PyAudio
+ pip install .\PyAudio-0.2.11-cp38-cp38-win_amd64.whl -> run this on terminal command prompt
+ 
+
+   
