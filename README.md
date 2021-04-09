@@ -6,8 +6,8 @@
 
      Supported commands :
 
-     opening wikipedia
-     opening google
+     open wikipedia
+     open google
      open youtube
      open stack overflow
 
